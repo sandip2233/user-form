@@ -36,7 +36,7 @@ const App = () => {
     }
 
     console.log("Posting form")
-    const response = await fetch('https://user-form-glbj.onrender.com/submit-form', {
+    const response = await fetch('https://server-2bo2.onrender.com/submit-form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
