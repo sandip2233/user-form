@@ -7,7 +7,7 @@ const SubmittedForms = () => {
   useEffect(() => {
 
     const fetchForms = async () => {
-      const response = await fetch('https://server-almd.onrender.com/submitted-forms');
+      const response = await fetch('https://funny-boa-button.cyclic.app/submitted-forms');
       const data = await response.json();
       setForms(data);
     };
