@@ -36,7 +36,7 @@ const App = () => {
     }
 
     console.log("Posting form")
-    const response = await fetch('https://server-almd.onrender.com/submit-form', {
+    const response = await fetch('https://helpful-jade-clothes.cyclic.app/submit-form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
